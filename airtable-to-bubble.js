@@ -1,4 +1,4 @@
-import {Airtable} from "./table-to-bubble.js"
+import {Airtable} from "https://cdn.jsdelivr.net/gh/elchinm/Table-to-Bubble@main/table-to-bubble.js"
 
 let aTable = new Airtable("pato4SiVa4ukgnQXg.3def483f310a6ba8225e13669b52c9d30bdc5979f32d544bdad434b4fe4476fa");
 //  aTable.addParameter("maxRecords", 2);
