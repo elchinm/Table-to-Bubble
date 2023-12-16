@@ -1,0 +1,22 @@
+{
+  "name": "table-to-bubble",
+  "version": "2.0.0",
+  "description": "none",
+  "main": "airtable-to-bubble.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elchinm/table-to-bubble.git"
+  },
+  "keywords": [
+    "table-to-bubble"
+  ],
+  "author": "Elchin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elchinm/table-to-bubble/issues"
+  },
+  "homepage": "https://github.com/elchinm/table-to-bubble#readme"
+}
