@@ -19,4 +19,5 @@ let result = {}
       result = bTable.result(records);
   }
 
+//console.log("Json structure", bTable.JSON))
 console.log(result)
