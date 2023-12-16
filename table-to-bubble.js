@@ -167,7 +167,7 @@ export class Table {
                         records = this.doFilterForJson(records, this.filterForJson);
                         if (records.name == "Error") { throw new Error(records) } }  
                     
-                        this["Records raw"] = JSON.stringify(records);
+                        this.Raw = JSON.stringify(records);
                 
                     return records;
                     
@@ -184,7 +184,7 @@ export class Table {
     }
 
     result(records) {
-        return { Status: "Success", Message: `${records.length} record(s)`, Things: Table.convert({convert:records}, this.#bubble_prefix)[this.#bubble_prefix+"convert"], "Records raw": this["Records raw"] };
+        return { Status: "Success", Message: `${records.length} record(s)`, Things: Table.convert({convert:records}, this.#bubble_prefix)[this.#bubble_prefix+"convert"], Raw: this.Raw };
     }
 }
 
