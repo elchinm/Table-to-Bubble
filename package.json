@@ -1,8 +1,9 @@
 {
   "name": "table-to-bubble",
-  "version": "2.0.0",
+  "version": "4.0.6",
   "description": "none",
-  "main": "airtable-to-bubble.js",
+  "type": "module",
+  "main": "table-to-bubble.cjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

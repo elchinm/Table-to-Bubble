@@ -188,7 +188,7 @@ class Table {
     }
 }
 
-export class Airtable extends Table {
+class Airtable extends Table {
     #path = "https://api.airtable.com/v0/";
     setSorting(field, desc) {
         this.addParameter("sort%5B0%5D%5Bfield%5D", field);
@@ -206,7 +206,7 @@ export class Airtable extends Table {
     }
 }
 
-export class Baserow extends Table {
+class Baserow extends Table {
     #path = "https://api.baserow.io/api/database/rows/table";
 
     constructor (token) {
@@ -246,3 +246,8 @@ export class Baserow extends Table {
 
     
 }
+
+module.exports = {
+    Airtable,
+    Baserow
+  };

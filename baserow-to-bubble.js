@@ -1,4 +1,4 @@
-import {Baserow} from "./table-to-bubble.js"
+import {Baserow} from "./table-to-bubble.cjs"
 
 let bTable = new Baserow("cpMaS13S00QlpgQhvKqMZpj2hrsj9ydv")  ;
 //  table.addParameter("page", 1);
